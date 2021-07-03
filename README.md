@@ -28,6 +28,7 @@ $ pip install -r requirements.txt
 $ python manage.py migrate # Running the migrations
 $ python manage.py createsuperuser # Create a superuser
 $ python manage.py runserver
+$ socat TCP-LISTEN:2375,reuseaddr,fork UNIX-CONNECT:/var/run/docker.sock & # only mac to expose docker deamon
 ```
 
 
